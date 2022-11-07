@@ -1,0 +1,30 @@
+{
+  "name": "fake-server",
+  "version": "1.0.0",
+  "description": "a fake server using json-server and faker js",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "server": "json-server ./db.json --watch --port 3500",
+    "generate": "node ./generate.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonmoydeb404/fake-server.git"
+  },
+  "keywords": [
+    "json-server",
+    "fakerjs",
+    "fake-server"
+  ],
+  "author": "tonmoydeb404",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tonmoydeb404/fake-server/issues"
+  },
+  "homepage": "https://github.com/tonmoydeb404/fake-server#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "json-server": "^0.17.1"
+  }
+}
